@@ -38,7 +38,7 @@ require_once "include/navigation.php";
                 <dl class="row">
                     <?php foreach ($_GET["data"] as $name => $value): ?>
                         <dt class="col-sm-3"><?= $name; ?></dt>
-                        <dd class="col-md-9"><?= $value; ?></dd>
+                        <dd class="col-md-9"><?= htmlentities($value);´ ?></dd>
                     <?php endforeach; ?>
                 </dl>
 
