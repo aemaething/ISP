@@ -11,9 +11,6 @@ require_once "include/navigation.php";
     <div class="container">
         <div class="row">
             <div class="col-8">
-                <?php if (array_key_exists("data", $_POST)): ?>
-
-                <?php endif; ?>
                 <form method="POST" action="post.php">
                     <?php require_once "include/form-elements.php"; ?>
                 </form>
